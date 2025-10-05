@@ -68,4 +68,24 @@ data = read.csv("soil_data.csv")
 summary(data)
 ```
 
+```{r}
+#this is just showing the dataset in simple table form
+data
+```
 
+```{r}
+#this is making the table more customize
+library(knitr)
+kable(data, caption = "just practicing")
+```
+
+```{r}
+ggplot(data, aes(Soil_Sample,Nitrogen, fill= Soil_Sample))+
+  geom_bar(stat = "identity")+
+  theme_minimal()
+```
+
+```{r}
+install.packages("tinytex")
+tinytex::install_tinytex()
+```
