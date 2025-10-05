@@ -2,14 +2,13 @@
 title: "Soil Status (first project)"
 author: "Durjoy Kumar Sarker"
 date: "2025-10-05"
-output:
-  pdf_document: default
-  html_document: default
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 
 # this is headline one
 
@@ -73,6 +72,7 @@ summary(data)
 data
 ```
 
+
 ```{r}
 #this is making the table more customize
 library(knitr)
@@ -80,12 +80,12 @@ kable(data, caption = "just practicing")
 ```
 
 ```{r}
+library(ggplot2)
 ggplot(data, aes(Soil_Sample,Nitrogen, fill= Soil_Sample))+
   geom_bar(stat = "identity")+
   theme_minimal()
 ```
 
-```{r}
-install.packages("tinytex")
-tinytex::install_tinytex()
-```
+
+
+
