@@ -1,0 +1,69 @@
+---
+title: "Soil Status (first project)"
+author: "Durjoy Kumar Sarker"
+date: "2025-10-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# this is headline one
+
+## this is headline two
+
+### this is headline three
+
+### now I will create the bullet list
+
+-   fist one is the sandy soil
+-   2nd one is the clay soil
+-   3rd one is loamy soil
+
+### now create an numbered list
+
+1.  hi
+2.  hello
+3.  hallo
+
+### this is for the bold and italic
+
+-   **high bold**
+-   *italic*
+-   ***Italic with bold***
+
+### add blockquotes
+
+> this is the blockquotes.
+
+### inline equation
+
+-   fertilizer formula: $N + P + K = Fertilizer\ Rate$
+
+### block equation
+
+$$
+Y = a + bX
+$$
+
+### link
+
+[youtube](https://youtube.com)
+
+### image
+
+![figure:1](20210119_095246.jpg)
+
+### inline code
+
+use `R` to analyze data
+
+# Code Block
+
+```{r}
+data = read.csv("soil_data.csv")
+summary(data)
+```
+
+
