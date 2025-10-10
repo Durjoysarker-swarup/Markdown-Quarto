@@ -1,0 +1,34 @@
+---
+title: "First draft"
+author: "Durjoy Sarker"
+format:
+  html: default
+  pdf: default
+editor: visual
+---
+
+## Introduction
+
+Soil salinity affects germination and seedling growth
+
+```{r}
+salinity <- c(0,50,100,150)
+germination <- c(95,82,60,40)
+plot(salinity, germination, type="b", col = "darkgreen",
+     main="The Plot",
+     xlab="NaCl concentration (mM)",
+     ylab="Germination (%)")
+```
+
+
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
+library(ggplot2)
+ggplot(mtcars, aes(x=hp, y=mpg)) + geom_point()
+```
+
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
+library(ggplot2)
+ggplot(mtcars, aes(x=hp, y=mpg)) + geom_point()
+```
+
+
