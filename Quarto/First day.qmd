@@ -20,15 +20,39 @@ plot(salinity, germination, type="b", col = "darkgreen",
      ylab="Germination (%)")
 ```
 
+### Figure Example: Salinity and Germination
 
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
+#| label: fig-salinity
+#| fig-cap: "Effect of salinity on yard long bean germination"
+#| echo: false
+#| message: false
+#| warning: false
+```{r}
 library(ggplot2)
-ggplot(mtcars, aes(x=hp, y=mpg)) + geom_point()
+ggplot(mtcars, aes(x = hp, y = mpg)) +
+  geom_point()
 ```
 
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
+As shown in Figure @fig-salinity, germination decreases as salinity  increases
+(see Figure @fig-salinity)
+
+
+
+
+### Figure Example: Salinity and Germination
+
+#| label: fig-salinity
+#| fig-cap: "Effect of salinity on yard long bean germination"
+#| echo: false
+#| message: false
+#| warning: false
+```{r}
 library(ggplot2)
-ggplot(mtcars, aes(x=hp, y=mpg)) + geom_point()
+
+# Example plot
+ggplot(mtcars, aes(x = hp, y = mpg)) +
+  geom_point()
 ```
 
-
+As shown in Figure @fig-salinity, germination decreases as salinity increases.  
+(see Figure @fig-salinity)
