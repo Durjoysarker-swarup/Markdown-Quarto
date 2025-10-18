@@ -1,0 +1,25 @@
+---
+title: "Quarto PDF TOC Test"
+author: "Durjoy Sarker"
+format:
+  pdf:
+    toc: true
+    toc-depth: 2
+---
+
+
+# Abstract
+This is the abstract section.
+
+# Introduction
+This is the introduction section.
+
+## Background
+More details here.
+
+# Methods
+Method section.
+
+# Results
+Result section.
+

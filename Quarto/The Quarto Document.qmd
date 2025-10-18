@@ -1,0 +1,40 @@
+---
+title: "Research Report + Quarto document"
+author: "Durjoy Sarker"
+format:
+  html:
+    toc: true #enable TOC
+    toc-depth: 3 #how much headline levels to include
+  pdf:
+    toc: true
+    toc-depth: 2
+    toc-title: "contents"
+editor: visual
+---
+
+### all the quarto basic function will be apply here. Like-
+
+-   headline
+-   bold (**bold**, *italic*)
+-   Lists (-,\*,1.)
+-   links
+-   image
+-   code blocks
+-   equation block
+-   block quotes
+
+##### The inline R code for dynamic text:
+
+1.  The avarage yield is `r mean(c(3,4,6,2,3,5,6))`
+
+# Research Report
+
+## Abstract
+
+This will be the abstract
+
+## Introduction
+
+This is the introduction section of a Paper. You can add anything here
+
+And so on and on and on. The next targer is to learn the cross referencing.
