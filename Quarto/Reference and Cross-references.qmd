@@ -1,0 +1,43 @@
+---
+title: "Day 5 Practice, (Reference and Cross reference)"
+author: "Durjoy Sarker"
+format:
+  pdf:
+    toc: true
+    toc-depth: 2
+editor: visual
+bibliography: references.bib
+csl: apa.csl #You need to download the csl file form the zorato
+---
+
+## Different ways to cite the text.
+
+### Example: 1
+
+several studies show increase the prductivity. [@s21113758]
+
+### Example: 2
+
+For multiple citation: [@s21113758; @s18082674]
+
+### Example: 3
+
+1.  parenthetical: ... results ([@s18082674]).
+2. Narrative: smith ([@s21113758]) found ...
+
+
+
+## Cross-reference figure and tables
+```{r}
+#| label: fig:salinity
+#| fig-cap: "germination rate vs salinity"
+x <- c(12,23,43,43,24,14)
+y <- c(1,2,3,4,2,5)
+plot(x,y)
+```
+
+### References in the text
+Figure \@ref(fig:salinity) shows that germination decreases with salinity.
+
+
+

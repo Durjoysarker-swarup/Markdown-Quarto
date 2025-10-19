@@ -1,0 +1,15 @@
+---
+title: "Cross-reference Test"
+format: html
+---
+
+# Introduction
+
+Figure \@ref(fig:salinity) shows germination pattern.
+
+```{r}
+#| label: fig:salinity
+#| fig-cap: "Germination rate under salinity"
+plot(1:5, c(10,9,7,5,3), type="b", main="Salinity Effect")
+```
+
