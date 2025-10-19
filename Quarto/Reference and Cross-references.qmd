@@ -40,4 +40,37 @@ plot(x,y)
 Figure \@ref(fig:salinity) shows that germination decreases with salinity.
 
 
+## Adding footnote to the doucument. This can  be two types.
+
+### Inline footnotes
+this is a inline footnote. ^[this footnote will show there in the line]
+
+### Numaric footnotes
+1. this is footnote no one. [^1]
+2. this is footnote no two. [^2]
+
+[^1]: somethings about the footnote 1
+[^2]: somethings about the footnote 2
+
+
+# Appendix {.unnumbered}
+
+## Appendix A — Raw Data
+- hare you can add the data you are analysis.
+
+## Appendix B — Extra Figures
+- hare you can add the chats and figure.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
