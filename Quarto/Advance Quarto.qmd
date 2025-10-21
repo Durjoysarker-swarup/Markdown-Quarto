@@ -1,0 +1,29 @@
+---
+title: "Yield Report (Template)"
+author: "Durjoy Sarker"
+params:
+  crop: "Yard Long Bean"
+  year: 2025
+  fertilizer: "Control"
+format:
+  pptx:
+    slide-level: 1 #if you want sub-heading as new slides
+    #reference-doc: custom-template.pptx .. it will be create based on your custom design and maybe the file should be in the director.
+editor: visual
+---
+
+# Yield Report (Parameterized Reports)
+
+This report analyses **`r params$crop`** for the year **`r params$year`** with fertilizer **`r params$fertilizer`**.
+
+# Quarto only executes R code if it detects at least one R chunk (like {r} ... ).
+
+```{r}
+2+2
+```
+
+# this things will be add in the next slide. 
+##introduction
+- by this
+- by that
+

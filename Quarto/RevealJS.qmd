@@ -1,0 +1,27 @@
+---
+title: "salinity_reveal"
+author: "Durjoy Sarker"
+format: revealjs
+revealjs:
+  theme: league #theme: solarized, black, white, league, silver, simple
+  transition: slide #slide, fade, none
+---
+
+# This is used to create new slide
+
+
+# So this is slide two
+
+## Use this for the subheading inside slide
+
+-   first point
+-   second point {.incremental} this will reveal after next click.
+
+# Embed image
+![Tree](20210119_095246.jpg)
+```{r}
+2+2
+```
+
+
+
