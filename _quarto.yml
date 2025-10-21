@@ -1,0 +1,18 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "My Quarto Book"
+  author: "Durjoy Sarker"
+  chapters:
+    - index.qmd
+    - Quarto/First day.qmd
+    - Quarto/practicing the toc.qmd
+    - Quarto/Reference and Cross-references.qmd
+    - Quarto/The Quarto Document.qmd
+    - Quarto/Advance Quarto.qmd
+    - Quarto/Apendix.qmd
+
+    
+    

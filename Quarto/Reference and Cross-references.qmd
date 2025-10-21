@@ -23,11 +23,10 @@ For multiple citation: [@s21113758; @s18082674]
 ### Example: 3
 
 1.  parenthetical: ... results ([@s18082674]).
-2. Narrative: smith ([@s21113758]) found ...
-
-
+2.  Narrative: smith ([@s21113758]) found ...
 
 ## Cross-reference figure and tables
+
 ```{r}
 #| label: fig:salinity
 #| fig-cap: "germination rate vs salinity"
@@ -37,40 +36,32 @@ plot(x,y)
 ```
 
 ### References in the text
+
 Figure \@ref(fig:salinity) shows that germination decreases with salinity.
 
-
-## Adding footnote to the doucument. This can  be two types.
+## Adding footnote to the doucument. This can be two types.
 
 ### Inline footnotes
-this is a inline footnote. ^[this footnote will show there in the line]
+
+this is a inline footnote. [^1]
+
+[^1]: this footnote will show there in the line
 
 ### Numaric footnotes
-1. this is footnote no one. [^1]
-2. this is footnote no two. [^2]
 
-[^1]: somethings about the footnote 1
-[^2]: somethings about the footnote 2
+1.  this is footnote no one. [^2]
+2.  this is footnote no two. [^3]
 
+[^2]: somethings about the footnote 1
+
+[^3]: somethings about the footnote 2
 
 # Appendix {.unnumbered}
 
 ## Appendix A — Raw Data
-- hare you can add the data you are analysis.
+
+-   hare you can add the data you are analysis.
 
 ## Appendix B — Extra Figures
-- hare you can add the chats and figure.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+-   hare you can add the chats and figure.
